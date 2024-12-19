@@ -1,1 +1,286 @@
-Hello World
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Zelun Kong - Homepage of Zelun Kong</title>
+  <meta name="author" content="Zelun Kong">
+  <meta name="description" content="Homepage of Zelun Kong">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+  <link href="style.css" rel=stylesheet>
+  <script>
+    function showbib(tag) {
+      var x = document.getElementById(tag);
+      if (x.style.display == "block")
+        x.style.display = "none";
+      else x.style.display = "block";
+    }
+  </script>
+</head>
+
+<body>
+  <div id=main>
+    <div style="padding-top: 10px">
+      <img src="profile.jpg" style="float: left; height:auto; width: 20%; margin-right: 30px; margin-top: 8px; margin-bottom: 10px; border-radius:50%" />
+      <!--<embed type="image/svg+xml" src="pic/umdlogo.svg" style="height: 40px; width: 300px; float: right; padding-top:10px; padding-bottom: 10px;" /> -->
+      <!-- <img src="pic/umdseal.png" style="height: 130px; float: right; padding-top:10px; padding-bottom: 10px;" /> -->
+      <div style="float:left">
+        <div class=name>Kong, Zelun &nbsp; <span style="font-family:cursive;">孔泽伦</span></div>
+        <p>
+          Ph.D. Candidate
+          <br>Research Assistant
+          <br>The University of Texas, Dallas
+        </p>
+        <p>
+          <a class=link href="mailto:zelun.kong@utdallas.edu">email</a>&nbsp;&nbsp;&nbsp;
+          <a class=link href="https://scholar.google.com/citations?user=THpi8bkAAAAJ&hl=en&oi=sra">google scholar</a>&nbsp;&nbsp;&nbsp;
+          <a class="cv" href="cv.pdf">CV</a>&nbsp;&nbsp;&nbsp;
+          <br><br>
+        </p>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <div class=section>
+      <!-- <h3>Biography</h3> -->
+      <p> I am a Ph.D. candidate at The University of Texas at Dallas (UTD), working as research assistant supervised by Dr. Chung Kwan Kim.
+        Before joining UTD, I received my B.S. degree for Computer Science from Wuhan University.
+      </p>
+
+      <div class=section>
+        <h3>Publication</h3>
+
+        <ol reversed class=paper>
+          <!-- Template -->
+          <li>
+            <a href="https://example.com/paper.pdf">TZ-DATASHIELD: Automated Data Protection for Embedded Systems via Data-Flow-Based Compartmentalization</a>.
+            NDSS 2025.
+            <a class=link href="javascript:showbib('physgan')">bib</a>
+            <br>
+            <span class=authors>Zelun Kong, Minkyung Park, Guan Le, Ning Zhang, Chung Hwan Kim</span>
+            <div id="physgan" style="display:none">
+              <pre><code>
+@inproceedings{tzds,
+  author={Kong, Zelun and Park, Minkyung and Guan, Le and Zhang, Ning and Kim, Chung Hwan},
+  title={TZ-DATASHIELD: Automated Data Protection for Embedded Systems via Data-Flow-Based Compartmentalization},
+  booktitle={Proceedings of the 32nd Network and Distributed System Security Symposium (NDSS 2025)},
+  address={San Diego, CA},
+  year={2025},
+  month=feb,
+  doi={10.14722/ndss.2025.240563},
+}
+              </code></pre>
+            </div>
+          </li>
+
+          <!-- Adv-Makeup -->
+          <li><a href="https://www.ijcai.org/proceedings/2021/173">Adv-makeup: A new imperceptible and transferable attack on face recognition</a>.
+            IJCAI 2021.
+            <a class=link href="javascript:showbib('adv_makeup')">bib</a><br>
+            <span class=authors>Bangjie Yin, Wenxuan Wang, Taiping Yao, Junfeng Guo, Zelun Kong, Shouhong Ding, Jilin Li, Cong Liu</span>
+            <div id="adv_makeup" style="display:none">
+              <pre><code>
+@inproceedings{adv_makeup,
+    author    = {Yin, Bangjie and Wang, Wenxuan and Yao, Taiping and Guo, Junfeng and Kong, Zelun and Ding, Shouhong and Li, Jilin and Liu, Cong},
+    title     = {Adv-Makeup: A New Imperceptible and Transferable Attack on Face Recognition},
+    booktitle = {Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI 2021)},
+    publisher = {International Joint Conferences on Artificial Intelligence Organization},
+    address   = {virtual},
+    year      = {2021},
+    month     = aug,
+    pages     = {1252-1258},
+    doi       = {10.24963/ijcai.2021/173},
+}
+              </code></pre>
+            </div>
+          </li>
+
+          <!-- PhysGAN -->
+          <li><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Kong_PhysGAN_Generating_Physical-World-Resilient_Adversarial_Examples_for_Autonomous_Driving_CVPR_2020_paper.pdf">PhysGAN: Generating Physical-World-Resilient Adversarial Examples for Autonomous Driving</a>.
+            CVPR 2020.
+            <a class=link href="javascript:showbib('physgan')">bib</a>
+            <br>
+            <span class=authors>Zelun Kong, Junfeng Guo, Ang Li, Cong Liu</span>
+            <div id="physgan" style="display:none">
+              <pre><code>
+@inproceedings{physgan,
+    author={Kong, Zelun and Guo, Junfeng and Li, Ang and Liu, Cong},
+    title={PhysGAN: Generating Physical-World-Resilient Adversarial Examples for Autonomous Driving},
+    booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2020)},
+    publisher={IEEE},
+    address={virtual},
+    year={2020},
+    month=jun,
+    pages={14242-14251},
+    doi={10.1109/CVPR42600.2020.01426}
+}
+              </code></pre>
+            </div>
+          </li>
+
+          <!-- Deepbillboard -->
+          <li><a href="https://ieeexplore.ieee.org/abstract/document/9283977">DeepBillboard: Systematic Physical-World Testing of Autonomous Driving Systems</a>.
+            ICSE 2020.
+            <a class=link href="javascript:showbib('deepbillboard')">bib</a><br>
+            <span class=authors>Husheng Zhou, Wei Li, Zelun Kong, Junfeng Guo, Yuqun Zhang, Bei Yu, Lingming Zhang, Cong Liu</span>
+            <div id="deepbillboard" style="display:none">
+              <pre><code>
+@inproceedings{deepbillboard,
+    author={Zhou, Husheng and Li, Wei and Kong, Zelun and Guo, Junfeng and Zhang, Yuqun and Yu, Bei and Zhang, Lingming and Liu, Cong},
+    title={DeepBillboard: Systematic Physical-World Testing of Autonomous Driving Systems},
+    booktitle={2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE 2020)},
+    publisher={IEEE},
+    address={Seoul, South Korea},
+    year={2020},
+    month=oct,
+    pages={347-358},
+}
+              </code></pre>
+            </div>
+          </li>
+
+          <!-- hdsc -->
+          <li><a href="https://ieeexplore.ieee.org/abstract/document/8731449">Robust high dimensional stream classification with novel class detection</a>.
+            ICDE 2019.
+            <a class=link href="javascript:showbib('hdsc')">bib</a><br>
+            <span class=authors>Zhuoyi Wang, Zelun Kong, Swarup Changra, Hemeng Tao, Latifur Khan</span>
+            <div id="hdsc" style="display:none">
+              <pre><code>
+@inproceedings{hdsc,
+    author={Wang, Zhuoyi and Kong, Zelun and Changra, Swarup and Tao, Hemeng and Khan, Latifur},
+    title={Robust High Dimensional Stream Classification with Novel Class Detection},
+    booktitle={2019 IEEE 35th International Conference on Data Engineering (ICDE 2019)},
+    publisher={IEEE},
+    address={Macau, China},
+    year={2019},
+    month=apr,
+    pages={1418-1429},
+    doi={10.1109/ICDE.2019.00128}
+}
+              </code></pre>
+            </div>
+          </li>
+
+          <!-- Metric Learning based Framework for Streaming Classification with Concept Evolution -->
+          <li><a href="https://ieeexplore.ieee.org/abstract/document/8851934">Metric Learning based Framework for Streaming Classification with Concept Evolution</a>.
+            IJCNN 2019.
+            <a class=link href="javascript:showbib('mlf_scce')">bib</a><br>
+            <span class=authors>Zhuoyi Wang, Hemeng Tao, Zelun Kong, Swarup Chandra, Latifur Khan</span>
+            <div id="mlf_scce" style="display:none">
+              <pre><code>
+@inproceedings{8851934,
+  author={Wang, Zhuoyi and Tao, Hemeng and Kong, Zelun and Chandra, Swarup and Khan, Latifur},
+  booktitle={2019 International Joint Conference on Neural Networks (IJCNN 2019)},
+  title={Metric Learning based Framework for Streaming Classification with Concept Evolution},
+  publisher={IEEE},
+  address={Budapest, Hungary},
+  year={2019},
+  month=jul,
+  pages={1-8},
+  doi={10.1109/IJCNN.2019.8851934}
+}
+              </code></pre>
+            </div>
+          </li>
+
+          <!-- A general analysis framework for soft real-time tasks -->
+          <li><a href="https://ieeexplore.ieee.org/abstract/document/8565912">A general analysis framework for soft real-time tasks</a>.
+            TPDS 2018.
+            <a class=link href="javascript:showbib('gaf_srtt')">bib</a><br>
+            <span class=authors>Zheng Dong, Cong Liu, Soroush Bateni, Zelun Kong, Liang He, Lingming Zhang, Ravi Prakash, Yuqun Zhang</span>
+            <div id="gaf_srtt" style="display:none">
+              <pre><code>
+@article{8565912,
+  author={Dong, Zheng and Liu, Cong and Bateni, Soroush and Kong, Zelun and He, Liang and Zhang, Lingming and Prakash, Ravi and Zhang, Yuqun},
+  title={A General Analysis Framework for Soft Real-Time Tasks},
+  journal={IEEE Transactions on Parallel and Distributed Systems (TPDS 2019)},
+  publisher={IEEE},
+  year={2019},
+  month=jun,
+  volume={30},
+  number={6},
+  pages={1222-1237},
+  doi={10.1109/TPDS.2018.2884980}
+}
+              </code></pre>
+            </div>
+          </li>
+
+          </ul>
+      </div>
+
+      <div class=foot style="font-size:10px"></div>
+    </div>
+</body>
+
+<script>
+  // paper categorization.
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("paperfilter");
+    if (c == "all") c = "";
+    // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) {
+        console.log(x);
+        w3AddClass(x[i], "show");
+      }
+    }
+  }
+
+  // Show filtered elements
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+
+  // Hide elements that are not selected
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+
+  // Add active class to the current control button (highlight it)
+  var btnContainer = document.getElementById("btnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33991125-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</html>
