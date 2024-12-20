@@ -2,7 +2,7 @@ body {
     /*font-family: Helvetica, Helvetica Neue, Arial;*/
     /*font-weight: 300;*/
     font-family: "Alegreya", "HelveticaNeue-Light", "Helvetica Neue Light", 'Helvetica Neue', 'Source Sans Pro', 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 15pt;
     color: #333333;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 code {
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 h3 {
@@ -156,18 +156,6 @@ a:hover {
     color: red;
 }
 
-/*
-h4 {
- /*   margin-top: 40px;
-	background: black;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	color: white;
-}*/
-
 td {
     vertical-align: top;
 }
@@ -242,7 +230,7 @@ p {
 
 .authors {
     color: gray;
-    font-size: 11pt;
+    font-size: 12pt;
 }
 
 .paperfilter {
